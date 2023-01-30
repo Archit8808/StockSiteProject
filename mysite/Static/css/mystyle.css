@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: fantasy;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#hero .profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+#home a {
+        width: 30px;
+        border: 5px solid rgba(216, 114, 205, 0.452);
+        padding: 8px;
+        margin: 20px;
+      }
+
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Add everything below here */
+
+#home {
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)), url('https://elements-cover-images-0.imgix.net/7762e5f8-ea5d-41c7-b8cb-3f1ead734842?auto=compress&crop=edges&fit=crop&fm=jpeg&h=630&w=1200&s=117fdd75613f34dddb295e5fda1666f4');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.881),rgba(255,255,255,0.881)), url('http://wallpapers.net/sign-at-wall-street-hd-wallpaper/download/3840x2160.jpg');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.881),rgba(255,255,255,0.75)), url('http://wallpapers.net/sign-at-wall-street-hd-wallpaper/download/3840x2160.jpg');
+}
